@@ -14,10 +14,6 @@ class Grid(object):
 		#self.grid_matrix = np.zeros(shape=dimensions)
 		self.matrix = np.random.randint(2, size=dimensions)
 
-		print(self.dimensions)
-		print(self.rect)
-		print(self.matrix)
-
 	def get_next_state(self, grid):
 		nb_sum = 0
 		nb_x_arr = [-1, 0, 1, -1, 1, -1, 0, 1]

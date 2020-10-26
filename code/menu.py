@@ -14,7 +14,7 @@ from code import constants_parameters as C
  # Global variables.
 
 pg.display.set_caption(C.GAME_TITLE) # Give the game a title.
-display = pg.display.set_mode((int(C.SURFACE_WIDTH/2), C.SURFACE_HEIGHT-200))#, pg.FULLSCREEN)
+display = pg.display.set_mode((C.SURFACE_WIDTH, C.SURFACE_HEIGHT), pg.FULLSCREEN)
 #display = pg.display.set_mode((1920, 1080))
 
 
